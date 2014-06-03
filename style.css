@@ -1,11 +1,12 @@
 body {
-	background: url("image/background.jpg") fixed;
+	background: url("image/background.jpg") repeat-x fixed;
 	color:white;
 }
 #mainlogo {
 	padding-top:0px;
 	padding-left:150px;
 	padding-right:100px;
+	margin-right:1px;
 	text-align: right;
 	position:absolute;
 }
@@ -13,6 +14,17 @@ body {
 	margin-top:140px;
 	max-width:900px;
 	max-height:1600px;
+	float:center;
+
+}
+#rightbutton {
+	max-height:50px;
+	max-width:50px;
+	float:right;
+}
+#leftbutton {
+	max-height:50px;
+	max-width:50px:;
 
 }
 li {
@@ -27,7 +39,7 @@ li {
 	padding-top:20px;
 	padding-bottom:20px;
 	margin:0px;
-	float: right;
+	float:right;
 	border-bottom:solid 2px orange ;
 	border-top:solid 2px orange;
 	margin-top:30px;
