@@ -2,15 +2,6 @@
 ================================================== */
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700);
 
-/* RESET CSS
-================================================== */
-*{margin:0;padding:0}
-table{width:100%;border-spacing:0;border-collapse:collapse}
-fieldset,img{border:0}
-ol,ul{list-style:none}
-caption,th{text-align:left}
-q:before,q:after{content:''}
-abbr,acronym{border:0}
 
 /* STYLE CSS
 =================================================== */
