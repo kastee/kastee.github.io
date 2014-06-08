@@ -80,6 +80,18 @@ body {
 	font-size: 20px auto;
 }
 
+#about a:hover {
+	color:#1d2e42;
+}
+
+#team a:hover {
+	color:#1d2e42;
+}
+
+#contact a:hover {
+ 	color:#1d2e42;
+}
+
 ol {
 	list-style-type: none;
 }
