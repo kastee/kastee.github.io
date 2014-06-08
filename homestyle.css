@@ -12,19 +12,11 @@ html, body {
     color:white;
 }
 
-a:link{
-   color: white;
-   text-decoration: none;
+a:link, a:visited, a.focus, a.active
+{
+  color:white;
+  text-decoration: none;
 }
-a:hover{
-   color: white;
-   text-decoration: none;
-}
-a:active{
-   color: white;
-   text-decoration: none;
-}
-
 
 /* Home_style_sheet
 ================================================== */
@@ -80,28 +72,16 @@ body {
 	font-size: 20px auto;
 }
 
-#about a:hover {
+#about li a:hover {
 	color:#1d2e42;
 }
 
-#team a:hover {
+#team li a:hover {
 	color:#1d2e42;
 }
 
-#contact a:hover {
+#contact li a:hover {
  	color:#1d2e42;
-}
-
-#about a:link {
-	color:white;
-}
-
-#team a:link {
-	color:white;
-}
-
-#contact a:link {
- 	color:white;
 }
 
 
