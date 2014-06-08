@@ -1,0 +1,79 @@
+/* Common_stlye_sheet
+================================================== */
+@font-face{
+	font-family: "klavika";
+	src: url('homeimage/font/klavika.otf');
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+/* Home_style_sheet
+================================================== */
+body {
+	background: #1d2e42 center center no-repeat fixed;
+	position: absolute;
+    width: 100%;
+    height: 100%;
+	z-index:-1;
+}
+
+#centerlogo {
+	margin:0px:;
+	padding:0px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#body {
+	font-family: "klavika";
+	font-size: 25px;
+	color: #f26822;
+	font-weight: bold;
+}
+
+#titlebody {
+	margin-top: 150px;
+	font-family: "klavika";
+	font-size: 50px;
+	color: #f26822;
+	font-weight: bold;
+}
+
+#footer {
+	position:absolute;
+	bottom:0;
+	height:50px;
+	overflow:hidden;
+	background-color:#f26822;
+	padding:0;
+	width:100%
+}
+
+#footerbody {
+	float:left;
+	padding-left:15px;
+	color:white;
+	font-family: "klavika";
+	font-size: 20px;
+}
+
+ol {
+	list-style-type: none;
+}
+
+ol li {
+	display:inline;
+	float:right;
+	padding-left:15px;
+	padding-right:15px;
+	color:white;
+	font-family: "klavika";
+	font-size: 20px;
+
+
+}
+
