@@ -92,6 +92,19 @@ body {
  	color:#1d2e42;
 }
 
+#about a:link {
+	color:white;
+}
+
+#team a:link {
+	color:white;
+}
+
+#contact a:link {
+ 	color:white;
+}
+
+
 ol {
 	list-style-type: none;
 }
