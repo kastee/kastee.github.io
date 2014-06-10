@@ -20,12 +20,19 @@ a:link, a:visited, a.focus, a.active
 
 /* Home_style_sheet
 ================================================== */
-body {
-	background: #1d2e42 center center no-repeat fixed;
+/*body {
+	background: url('investors.png') center center no-repeat fixed;
 	position: absolute;
-    width: 100%;
-    height: 100%;
+    width: 100% auto;
+    height: 100% auto;
 	z-index:-1;
+}  */
+
+#body {
+	height: 100%;
+	width: 100%;
+    max-height: 100%;
+    max-width: 100%;
 }
 
 #centerlogo {
@@ -101,5 +108,4 @@ ol li {
 	font-family: "klavika";
 	font-size: auto;
 }
-
 
