@@ -32,7 +32,7 @@ body {
 	margin:0px:;
 	padding:0px;
 	margin-top:50px;
-	margin-left:50px;
+	margin-left:100px;
 	margin-right: auto;
 	width:auto;
 	height: auto;
@@ -46,14 +46,14 @@ body {
 	color: white;
 	font-weight: bold;
 	vertical-align: middle;
-	margin-left: 100px;
+	margin-left: 200px;
 }
 
 #titlebody {
-	margin-top: 150px;
-	margin-left: 100px;
+	margin-top: 100px;
+	margin-left: 200px;
 	font-family: "klavika";
-	font-size: 50px;
+	font-size: 60px;
 	color: white;
 	font-weight: bold;
 	vertical-align: middle;
@@ -106,5 +106,10 @@ ol li {
 
 #pp {
 	float:right;
+	max-width:100%;
+	max-height:100%;
+	margin-right:180px;
+	margin-top:120px;
+
 }
 
