@@ -51,8 +51,9 @@ body {
 #titlebody {
 	margin-top: 7%;
 	margin-left: 13%;
+	margin-right:7%;
 	font-family: "klavika";
-	font-size: 60px;
+	font-size: 50px;
 	color: white;
 	font-weight: bold;
 	vertical-align: middle;
@@ -106,9 +107,10 @@ ol li {
 	float:right;
 	max-width:100%;
 	max-height:100%;
+	width:550px;
 	margin-right:14%;
 	margin-top:7%;
-	width:auto;
+	margin-left:7%;
 	height:auto;
 }
 
