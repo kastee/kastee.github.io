@@ -24,7 +24,7 @@ body {
 	background: url("homeimage/background.jpg") center center no-repeat fixed;
 	position: absolute;
     width: 100%;
-    height: auto;
+    height: 100%;
 	z-index:-1;
 }  
 
