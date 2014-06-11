@@ -20,13 +20,13 @@ a:link, a:visited, a.focus, a.active
 
 /* Home_style_sheet
 ================================================== */
-/*body {
-	background: url('investors.png') center center no-repeat fixed;
+body {
+	background: #1d2e42 center center no-repeat fixed;
 	position: absolute;
     width: 100% auto;
     height: 100% auto;
 	z-index:-1;
-}  */
+}  
 
 #body {
 	height: 100%;
