@@ -33,11 +33,9 @@ body {
 	margin-top:4%;
 	margin-left:7%;
 	margin-right:0;
-	margin-bottom:7%;
-	width:auto;
-	height: auto;
 	max-width: 100%;
 	max-height: 100%;
+	position:absolute;
 }
 
 .body {
@@ -54,12 +52,11 @@ body {
 	margin-top:0;
 	margin-left: 13%;
 	margin-bottom:0;
-	margin-right:0;
+	margin-right:0;	
+	padding-top:14%;
 	font-family: "klavika";
 	font-size: 50px;
 	color: white;
-	font-weight: bold;
-
 }
 
 .pp {
@@ -69,6 +66,7 @@ body {
 	width:450px;
 	margin-right:14%;
 	margin-top:12%;
+	padding-left:120px;
 	height:auto;
 }
 
@@ -116,8 +114,6 @@ ol li {
 	font-size: auto;
 }
 
-
-
 .wrapper {
 	max-width: 100%;
 	max-height: 100%;
@@ -132,9 +128,9 @@ ol li {
     margin:0;
   }
   
-  body, .footer {
-    float:none;
-    position:static;
+  body, .footer,  {
+    float:center;
+    position:relative;
     width:auto;
   }
   
