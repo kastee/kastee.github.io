@@ -22,44 +22,57 @@ a:link, a:visited, a.focus, a.active
 ================================================== */
 body {
 	background: url("homeimage/background.jpg") center center no-repeat fixed;
+	background-size: 100% 100%;
 	position: absolute;
     width: 100%;
     height: 100%;
 	z-index:-1;
 }  
 
-#logo {
-	margin:0px:;
-	padding:0px;
+.logo {
 	margin-top:4%;
 	margin-left:7%;
-	margin-right: auto;
+	margin-right:0;
+	margin-bottom:7%;
 	width:auto;
 	height: auto;
 	max-width: 100%;
 	max-height: 100%;
 }
 
-#body {
+.body {
 	font-family: "klavika";
 	font-size: 25px;
 	color: white;
-	vertical-align: middle;
 	margin-left: 13%;
+	margin-right:0;
+	margin-top:0;
+	margin-bottom:0;
 }
 
-#titlebody {
-	margin-top: 7%;
+.titlebody {
+	margin-top:0;
 	margin-left: 13%;
-	margin-right:7%;
+	margin-bottom:0;
+	margin-right:0;
 	font-family: "klavika";
 	font-size: 50px;
 	color: white;
 	font-weight: bold;
-	vertical-align: middle;
+
 }
 
-#footer {
+.pp {
+	float:right;
+	max-width:100%;
+	max-height:100%;
+	width:450px;
+	margin-right:14%;
+	margin-top:12%;
+	height:auto;
+}
+
+.footer {
 	position:absolute;
 	bottom:0;
 	overflow:hidden;
@@ -68,7 +81,7 @@ body {
 	width:100%
 }
 
-#footerbody {
+.footerbody {
 	float:left;
 	padding-left:15px;
 	color:white;
@@ -76,15 +89,15 @@ body {
 	font-size: auto;
 }
 
-#about li a:hover {
+.about li a:hover {
 	color:#1d2e42;
 }
 
-#team li a:hover {
+.team li a:hover {
 	color:#1d2e42;
 }
 
-#contact li a:hover {
+.contact li a:hover {
  	color:#1d2e42;
 }
 
@@ -103,18 +116,9 @@ ol li {
 	font-size: auto;
 }
 
-#pp {
-	float:right;
-	max-width:100%;
-	max-height:100%;
-	width:550px;
-	margin-right:14%;
-	margin-top:12%;
-	margin-left:7%;
-	height:auto;
-}
 
-#wrapper {
+
+.wrapper {
 	max-width: 100%;
 	max-height: 100%;
 	position:relative;
