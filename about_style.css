@@ -28,7 +28,7 @@ html, body {
 
 .third_body{background: #1d2e42; height: 650px; width: 100%;}
 .third_body_centertext {margin:0; font-family: "klavika"; font-size: 35px; color: white;}
-ol li {display:inline-block; padding:7%; font-family: "klavika"; font-size: 20px; color: white; text-align: left;}
+ol li {display:inline-block; padding:7%; font-family: "klavika"; font-size: 18px; color: white; text-align: left;}
 /*
 .listtext1 {float:left; padding:0; margin:0; font-family: "klavika"; font-size: 15px; color: white; vertical-align:left;}
 .listtext2 {float:center; padding:0; margin:0; font-family: "klavika"; font-size: 15px; color: white; vertical-align:left;}
